@@ -1,0 +1,7 @@
+[
+  {"ten": "Phở bò", "calo": 350, "dinhduong": "giàu đạm", "buoi": "sáng", "phu_hop": "người thường"},
+  {"ten": "Cơm gà", "calo": 500, "dinhduong": "cao năng lượng", "buoi": "trưa", "phu_hop": "người vận động"},
+  {"ten": "Salad rau trộn", "calo": 150, "dinhduong": "ít béo", "buoi": "tối", "phu_hop": "giảm cân"},
+  {"ten": "Cháo yến mạch", "calo": 200, "dinhduong": "giàu chất xơ", "buoi": "sáng", "phu_hop": "giảm cân"},
+  {"ten": "Bún riêu", "calo": 400, "dinhduong": "cân đối", "buoi": "trưa", "phu_hop": "người thường"}
+]
