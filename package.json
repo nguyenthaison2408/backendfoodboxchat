@@ -1,19 +1,38 @@
 {
   "name": "food-chat-ai",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "AI Chatbot tư vấn món ăn - Backend API dùng Express, Multer, Dotenv, CORS",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "chatbot",
+    "food",
+    "AI",
+    "express",
+    "backend"
+  ],
+  "author": "Nguyen Thai Son",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "axios": "^1.13.1",
+    "axios": "^1.6.8",
     "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0"
-  }
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nguyenthaison2408/backendfoodboxchat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nguyenthaison2408/backendfoodboxchat/issues"
+  },
+  "homepage": "https://github.com/nguyenthaison2408/backendfoodboxchat#readme"
 }
