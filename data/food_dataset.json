@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Phở bò",
+    "type": "Món nước",
+    "ingredients": ["bánh phở", "thịt bò", "hành", "nước dùng"],
+    "nutrition": {"calories": 350,"protein": 25,"fat": 10,"carbs": 40},
+    "suggestions": ["Bún bò Huế", "Hủ tiếu", "Mì Quảng"],
+    "tags": ["truyền thống", "sáng", "bổ dưỡng"]
+  },
+  {
+    "name": "Salad rau củ",
+    "type": "Ăn chay",
+    "ingredients": ["xà lách", "cà chua", "dưa leo", "sốt dầu giấm"],
+    "nutrition": {"calories": 120,"protein": 5,"fat": 8,"carbs": 10},
+    "suggestions": ["Salad cá ngừ", "Gỏi cuốn", "Súp rau củ"],
+    "tags": ["healthy", "ăn kiêng", "tươi mát"]
+  },
+  {
+    "name": "Bánh mì thịt",
+    "type": "Ăn nhanh",
+    "ingredients": ["bánh mì", "thịt nướng", "pate", "rau sống"],
+    "nutrition": {"calories": 400,"protein": 20,"fat": 18,"carbs": 45},
+    "suggestions": ["Bánh mì chả cá", "Bánh mì gà", "Bánh mì xíu mại"],
+    "tags": ["ăn sáng", "đường phố", "năng lượng cao"]
+  },
+  {
+    "name": "Gỏi cuốn",
+    "type": "Ăn nhẹ",
+    "ingredients": ["bánh tráng", "tôm", "thịt heo", "rau sống", "bún"],
+    "nutrition": {"calories": 200,"protein": 10,"fat": 5,"carbs": 25},
+    "suggestions": ["Chả giò", "Salad rau củ", "Bánh hỏi"],
+    "tags": ["ăn nhẹ", "healthy", "truyền thống"]
+  },
+  {
+    "name": "Cơm tấm sườn",
+    "type": "Món cơm",
+    "ingredients": ["cơm tấm", "sườn nướng", "trứng ốp la", "dưa leo"],
+    "nutrition": {"calories": 550,"protein": 30,"fat": 25,"carbs": 50},
+    "suggestions": ["Cơm gà", "Cơm chiên", "Cơm sườn chua ngọt"],
+    "tags": ["cơm trưa", "năng lượng cao", "đường phố"]
+  },
+  {
+    "name": "Mì Quảng",
+    "type": "Món nước",
+    "ingredients": ["mì Quảng", "thịt heo", "tôm", "rau sống", "đậu phộng"],
+    "nutrition": {"calories": 320,"protein": 15,"fat": 12,"carbs": 35},
+    "suggestions": ["Bún bò Huế", "Hủ tiếu", "Phở"],
+    "tags": ["truyền thống", "miền Trung", "bữa chính"]
+  },
+  {
+    "name": "Bún bò Huế",
+    "type": "Món nước",
+    "ingredients": ["bún", "thịt bò", "giò heo", "hành", "ớt"],
+    "nutrition": {"calories": 450,"protein": 30,"fat": 20,"carbs": 40},
+    "suggestions": ["Phở bò", "Mì Quảng", "Hủ tiếu"],
+    "tags": ["miền Trung", "món cay", "truyền thống"]
+  },
+  {
+    "name": "Sushi",
+    "type": "Món Nhật",
+    "ingredients": ["gạo", "cá sống", "rong biển", "wasabi"],
+    "nutrition": {"calories": 300,"protein": 20,"fat": 5,"carbs": 40},
+    "suggestions": ["Sashimi", "Maki", "Temaki"],
+    "tags": ["món Nhật", "healthy", "ăn nhẹ"]
+  },
+  {
+    "name": "Pizza Margherita",
+    "type": "Món Ý",
+    "ingredients": ["bột mì", "phô mai mozzarella", "sốt cà chua", "lá húng quế"],
+    "nutrition": {"calories": 400,"protein": 18,"fat": 15,"carbs": 50},
+    "suggestions": ["Pizza Pepperoni", "Pizza Hải sản", "Pizza 4 phô mai"],
+    "tags": ["món Ý", "ăn nhanh", "năng lượng cao"]
+  },
+  {
+    "name": "Spaghetti Bolognese",
+    "type": "Món Ý",
+    "ingredients": ["mì Ý", "thịt bò băm", "sốt cà chua", "phô mai Parmesan"],
+    "nutrition": {"calories": 450,"protein": 25,"fat": 18,"carbs": 55},
+    "suggestions": ["Lasagna", "Fettuccine Alfredo", "Penne Arrabbiata"],
+    "tags": ["món Ý", "bữa chính", "năng lượng cao"]
+  },
+  {
+    "name": "Pad Thai",
+    "type": "Món Thái",
+    "ingredients": ["mì gạo", "tôm", "trứng", "đậu phụ", "đậu phộng"],
+    "nutrition": {"calories": 380,"protein": 20,"fat": 10,"carbs": 55},
+    "suggestions": ["Pad See Ew", "Tom Yum", "Som Tum"],
+    "tags": ["món Thái", "ăn nhẹ", "bữa chính"]
+  },
+  {
+    "name": "Pho chay",
+    "type": "Món chay",
+    "ingredients": ["bánh phở", "nấm", "rau cải", "nước dùng chay"],
+    "nutrition": {"calories": 250,"protein": 8,"fat": 5,"carbs": 45},
+    "suggestions": ["Bún chay", "Gỏi cuốn chay", "Súp rau củ"],
+    "tags": ["ăn chay", "healthy", "truyền thống"]
+  }
+]
