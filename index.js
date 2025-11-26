@@ -1,23 +1,29 @@
+import 'dotenv/config'; // Dùng cách này để đảm bảo biến môi trường được load
 import express from "express";
 import cors from "cors";
-import dotenv from "dotenv";
+import chataiRouter from "./routes/chatai.js";
 
-import chatRoutes from "./routes/chat.js";
-import mealRoutes from "./routes/mealPlanner.js";
-import searchRoutes from "./routes/searchDish.js";
-import searchByImageRoutes from "./routes/searchByImage.js";
-import uploadRoutes from "./routes/uploadImage.js";
-
-dotenv.config();
 const app = express();
-app.use(cors());
-app.use(express.json({ limit: '10mb' }));
 
-app.use("/api/chat", chatRoutes);
-app.use("/api/meal-planner", mealRoutes);
-app.use("/api/search-dish", searchRoutes);
-app.use("/api/search-by-image", searchByImageRoutes);
-app.use("/api/upload", uploadRoutes);
+// --- Middleware ---
+// Cấu hình CORS. Trong môi trường dev, allow * là nhanh nhất. 
+// Trong môi trường production, nên chỉ cho phép origin của frontend.
+app.use(cors()); 
+app.use(express.json());
 
+// Kiểm tra Key sau khi dotenv/config đã chạy
+console.log(
+  "🔑 GEMINI_API_KEY Status:",
+  process.env.GEMINI_API_KEY ? "✅ Loaded" : "❌ Not Found. Vui lòng kiểm tra file .env"
+);
+
+// --- Routes ---
+// Endpoint: POST /api/chatai
+app.use("/api/chatai", chataiRouter);
+
+// Test route
+app.get("/", (req, res) => res.send("FoodAI Backend Server is running ✅"));
+
+// --- Start server ---
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`✅ Server running on http://localhost:${PORT}`));
