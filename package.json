@@ -20,11 +20,15 @@
   "dependencies": {
     "@google-cloud/vision": "^5.3.4",
     "@google/genai": "^1.29.0",
+    "@huggingface/inference": "^4.13.4",
     "axios": "^1.13.2",
     "cors": "^2.8.5",
     "dotenv": "^16.6.1",
     "express": "^4.21.2",
+    "firebase-admin": "^13.6.0",
+    "form-data": "^4.0.5",
     "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.3.2",
     "openai": "^6.8.1"
   },
   "devDependencies": {
@@ -32,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nguyenthaison2408/backendfoodboxchat.git"
+    "url": "git+https://github.com/nguyenthaison2408/backendfoodboxchat.git"
   },
   "bugs": {
     "url": "https://github.com/nguyenthaison2408/backendfoodboxchat/issues"
