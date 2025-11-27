@@ -2,6 +2,8 @@ import 'dotenv/config';
 import express from "express";
 import cors from "cors";
 import chataiRouter from "./routes/chatai.js";
+import mealPlannerRouter from "./routes/mealPlanner.js";
+import searchDishRouter from "./routes/searchDish.js";
 // 1. Import route mới
 import imageAnalysisRouter from "./routes/imageAnalysis.js"; 
 
@@ -25,7 +27,8 @@ console.log(
 app.use("/api/chatai", chataiRouter);
 // 2. Đăng ký endpoint mới
 app.use("/api/image-analysis", imageAnalysisRouter);
-
+app.use("/api/search-dish", searchDishRouter);
+app.use("/api/meal-planner", mealPlannerRouter);
 app.get("/", (req, res) => res.send("FoodAI Backend Server is running ✅"));
 
 const PORT = process.env.PORT || 5000;
